@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MostafijWeb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Moonrocks&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 780px)">
+ 
+</head>
+<body>
+     
+
+<!--........................... Navbar starts here .............................-->
+
+
+
+    <nav>
+
+
+    <div  class="logo col-6" >
+            <p id="logo">MostafijWeb</p>
+
+          <div>
+            <a href="javascript:void(0);" class="icon " onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a> 
+          </div>
+    </div>
+
+
+   
+
+   
+
+    <div id="menu" class="col-6">
+
+    <ul>
+    
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Skill</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+
+   
+    </ul>
+   
+    </div>
+
+   
+    </nav>
+
+
+<!--........................... Navbar ends here .............................-->
+
+
+
+
+<main>
+
+
+<section id="profile">
+
+        <img id="my-photo" src="images/img1.jpg" alt="Mostafij's photo">
+
+
+</section>
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("menu");
+      var y = document.getElementById("my-photo");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+        y.style.marginTop = "0";
+      } else {
+        x.style.display = "block";
+        y.style.marginTop = "272px";
+      }
+    }
+    </script>
+    
+    
+
+
+</body>
+</html>
